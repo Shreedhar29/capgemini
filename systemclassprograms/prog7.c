@@ -12,11 +12,11 @@
 	     rem = num%10;
 		 for(i=1;i<num;i++)
 		    {
-			  if(sum==rem)
+			  if(sum!=rem)
 			     {
 				   printf("%d",sum);
 				   sum=rem;
-				 }
+		         }
 		    }
 		 rev = (rev*10) + rem;
 		 num=num/10;

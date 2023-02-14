@@ -29,8 +29,8 @@ int main()
 	         }
    }
 
-	 printf("even palces product: %d\n",oddnum);
-	 printf("odd palces product: %d\n",evennum);
+	 printf("even places product: %d\n",evennum);
+	 printf("odd places product: %d\n",oddnum);
 	 if(oddnum==evennum)
 	    {
 	      printf("%d and %d are equal\n",evennum,oddnum);
