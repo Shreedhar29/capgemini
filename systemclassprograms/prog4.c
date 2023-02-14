@@ -9,6 +9,10 @@ int main()
    {
    rem=num%10;
    sum=sum+rem;
+    if( rem==0)
+	  {
+	    rem=1;
+      }
    product = product*rem;
    rev =(rev *10)+rem;
    num=num/10;
