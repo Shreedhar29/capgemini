@@ -31,4 +31,5 @@ char sort(char str[])
 		 }
 	   }
     }
+	return 0;
 }
